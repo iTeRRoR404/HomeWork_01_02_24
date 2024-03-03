@@ -30,6 +30,5 @@ public class NewWindowTest {
         String actualText = driver.findElement(By.tagName("h3")).getText();
         String expectedText = "New Window";
         Assert.assertEquals(actualText, expectedText);
-        assert actualText.contains("New Window");
     }
 }
